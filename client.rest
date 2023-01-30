@@ -1,0 +1,24 @@
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "name": "nostva",
+    "email": "nostva@gmail.com",
+    "password": "1234512127"
+}
+
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "email": "ms1ss2ss3123@gmail.com",
+    "password": "1234567"
+}
+
+###
+
+GET http://localhost:3000/getTask/63d73511e0b23f5d7e4fb419
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im5vc3R2YSIsImlkIjoiNjNkNzM0MmRhMjY1NmI5Y2Q5Y2IwYWM2IiwiaWF0IjoxNjc1MDQ3OTgxLCJleHAiOjE2Nzc2Mzk5ODF9.av6OklmTQjy4Xc4bbJclyspKuqZjVmqZveEE9D8MaWk
